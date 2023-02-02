@@ -6,6 +6,7 @@ font-family:  sans-serif;;
 body{
     background-color: hsl(212, 45%, 89%);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -20,7 +21,7 @@ body{
     flex-direction:column;
     padding: 1%;
     border-radius: 20px;
-    margin: 10% 0 ;
+    margin: 5% 0 ;
     
     box-shadow:  4px 5px 10px 1px rgba(194, 191, 191, 0.295);
 }
@@ -39,7 +40,11 @@ p{padding-top: 10px;
     color:hsl(220, 15%, 55%); 
     font-weight: 400;
 }
-@media only screen and (max-width:375px){
+.attribution{
+    color: black;
+    font-size: 12px;
+}
+@media only screen and (max-width:750px){
 
 .container{
     margin-top: 10%;
